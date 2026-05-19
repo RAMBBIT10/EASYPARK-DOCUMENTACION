@@ -41,9 +41,9 @@ Los dueños de parqueaderos o espacios privados tendrán la oportunidad de ganar
 
 | Rol | Descripción |
 |---|---|
-| 🚗 **Conductor** | Busca parqueaderos disponibles, realiza reservas y efectúa pagos |
-| 🏠 **Dueño del parqueadero** | Publica, edita y gestiona sus espacios de parqueo y reservas recibidas |
-| 👮 **Administrador** | Aprueba parqueaderos, gestiona usuarios y monitorea el sistema |
+|  **Conductor** | Busca parqueaderos disponibles, realiza reservas y efectúa pagos |
+|  **Dueño del parqueadero** | Publica, edita y gestiona sus espacios de parqueo y reservas recibidas |
+|  **Administrador** | Aprueba parqueaderos, gestiona usuarios y monitorea el sistema |
 
 ---
 
