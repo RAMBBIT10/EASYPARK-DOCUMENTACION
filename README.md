@@ -1,4 +1,4 @@
-# 🅿️ Easy Park
+# Easy Park
 ### Sistema de Parqueaderos Privados en Tiempo Real
 
 **Autores:** Diego Alejandro Vega Vanegas
@@ -146,13 +146,13 @@ Los dueños de parqueaderos o espacios privados tendrán la oportunidad de ganar
 
 | Identificador | Historia de Usuario | PoC |
 |---|---|---|
-| **CU-009-RF1** | Buscar parqueaderos por GPS en radio de 1 km | ✅ Sí |
+| **CU-009-RF1** | Buscar parqueaderos por GPS en radio de 1 km |  Sí |
 | **CU-010-RF1** | Registrar placa, tipo de vehículo y periodo de entrada/salida | No |
-| **CU-010-RF3** | Asignar celda y generar comprobante con código QR | ✅ Sí |
-| **CU-011-RF3** | Liberar espacio automáticamente si el usuario no paga a tiempo | ✅ Sí — requiere jobs/watchers |
-| **CU-011-RF4** | Notificar al usuario el estado de su reserva | ✅ Sí |
-| **CU-013-RF1** | Pago seguro mediante pasarela (Mercado Pago) | ✅ Sí — requiere integración API |
-| **CU-014-RF1** | Factura con código QR para verificar identidad | ✅ Sí |
+| **CU-010-RF3** | Asignar celda y generar comprobante con código QR |  Sí |
+| **CU-011-RF3** | Liberar espacio automáticamente si el usuario no paga a tiempo |  Sí — requiere jobs/watchers |
+| **CU-011-RF4** | Notificar al usuario el estado de su reserva |  Sí |
+| **CU-013-RF1** | Pago seguro mediante pasarela (Mercado Pago) |  Sí — requiere integración API |
+| **CU-014-RF1** | Factura con código QR para verificar identidad |  Sí |
 
 ---
 
@@ -231,57 +231,57 @@ Los dueños de parqueaderos o espacios privados tendrán la oportunidad de ganar
 
 | Herramienta | Estado | Justificación |
 |---|---|---|
-| **Angular** | ✅ Seleccionado | Estructura organizada que evita errores en datos de reservas y mapas. Framework empresarial de Google |
-| React.js | ❌ No seleccionado | No se eligió para priorizar robustez estructural de Angular |
+| **Angular** |  Seleccionado | Estructura organizada que evita errores en datos de reservas y mapas. Framework empresarial de Google |
+| React.js |  No seleccionado | No se eligió para priorizar robustez estructural de Angular |
 
 ### Backend
 
 | Herramienta | Estado | Justificación |
 |---|---|---|
-| **Spring Boot** | ✅ Seleccionado | Arquitectura limpia y hexagonal, separación por capas, proyecto orientado a largo plazo |
-| Node.js | ❌ No seleccionado | El equipo tiene mayor experiencia en Java |
-| Django | ❌ No seleccionado | El equipo no tiene experiencia en Python |
+| **Spring Boot** |  Seleccionado | Arquitectura limpia y hexagonal, separación por capas, proyecto orientado a largo plazo |
+| Node.js |  No seleccionado | El equipo tiene mayor experiencia en Java |
+| Django |  No seleccionado | El equipo no tiene experiencia en Python |
 
 ### Hosting
 
 | Herramienta | Estado | Justificación |
 |---|---|---|
-| **Railway** | ✅ Seleccionado | Curva de aprendizaje baja, MVP fácil de desplegar, costos accesibles |
-| AWS | ❌ No seleccionado | Pago por uso costoso, curva de aprendizaje alta |
-| Google Cloud / Azure | ❌ No seleccionado | Más compleja y costosa para la etapa actual |
+| **Railway** |  Seleccionado | Curva de aprendizaje baja, MVP fácil de desplegar, costos accesibles |
+| AWS |  No seleccionado | Pago por uso costoso, curva de aprendizaje alta |
+| Google Cloud / Azure |  No seleccionado | Más compleja y costosa para la etapa actual |
 
 ### Base de Datos
 
 | Herramienta | Estado | Justificación |
 |---|---|---|
-| **PostgreSQL 17** | ✅ Seleccionado | Open source gratuita, conocimiento del equipo, sistema relacional robusto |
-| OracleSQL | ❌ No seleccionado | Costo alto con crecimiento |
-| NoSQL | ❌ No seleccionado | Puede ocasionar duplicidad; la flexibilidad no es necesaria |
+| **PostgreSQL 17** |  Seleccionado | Open source gratuita, conocimiento del equipo, sistema relacional robusto |
+| OracleSQL |  No seleccionado | Costo alto con crecimiento |
+| NoSQL |  No seleccionado | Puede ocasionar duplicidad; la flexibilidad no es necesaria |
 
 ### Otras Tecnologías
 
 | Tecnología | Estado | Función |
 |---|---|---|
-| **Redis** | ✅ Seleccionado | Caché y bloqueo de espacios en tiempo real (mutex 5 min) |
-| **Spring Security + JWT** | ✅ Seleccionado | Autenticación y autorización por roles |
-| **GitHub Actions** | ✅ Seleccionado | CI/CD — automatiza despliegues y pruebas |
-| **WebSocket API** | ✅ Seleccionado | Mapa en tiempo real bidireccional |
-| **Firebase Cloud Messaging** | ✅ Seleccionado | Notificaciones push a conductores y dueños |
-| **Mercado Pago** | ✅ Seleccionado | Pasarela de pagos popular en Latinoamérica |
-| **Google Maps Platform** | ✅ Seleccionado | Mapas interactivos con ubicación precisa |
-| REST API | ❌ No seleccionado | No permite actualización en tiempo real del mapa |
-| Stripe | ❌ No seleccionado | Poco conocido en Colombia, genera inseguridad al pagar |
+| **Redis** |  Seleccionado | Caché y bloqueo de espacios en tiempo real (mutex 5 min) |
+| **Spring Security + JWT** |  Seleccionado | Autenticación y autorización por roles |
+| **GitHub Actions** |  Seleccionado | CI/CD — automatiza despliegues y pruebas |
+| **WebSocket API** |  Seleccionado | Mapa en tiempo real bidireccional |
+| **Firebase Cloud Messaging** |  Seleccionado | Notificaciones push a conductores y dueños |
+| **Mercado Pago** |  Seleccionado | Pasarela de pagos popular en Latinoamérica |
+| **Google Maps Platform** |  Seleccionado | Mapas interactivos con ubicación precisa |
+| REST API |  No seleccionado | No permite actualización en tiempo real del mapa |
+| Stripe |  No seleccionado | Poco conocido en Colombia, genera inseguridad al pagar |
 
 ### Arquitecturas Aplicadas
 
 | Arquitectura | Estado | Justificación |
 |---|---|---|
-| **Hexagonal** | ✅ Aplicada | Separa lógica de negocio del mundo externo con puertos y adaptadores |
-| **En Capas** | ✅ Aplicada | Frontend, lógica de negocio y acceso a datos bien separados |
-| **Microservicios** | ✅ Aplicada | Módulos independientes: usuarios, reservas, pagos, disponibilidad |
-| **Event-Driven** | ✅ Aplicada | Reserva → pago → confirmación como cadena de eventos |
-| **API-First** | ✅ Aplicada | Angular, app móvil y servicios externos se comunican de forma clara |
-| **Contenedores (Docker)** | ✅ Aplicada | Consistencia entre entornos de desarrollo y producción |
+| **Hexagonal** |  Aplicada | Separa lógica de negocio del mundo externo con puertos y adaptadores |
+| **En Capas** |  Aplicada | Frontend, lógica de negocio y acceso a datos bien separados |
+| **Microservicios** |  Aplicada | Módulos independientes: usuarios, reservas, pagos, disponibilidad |
+| **Event-Driven** |  Aplicada | Reserva → pago → confirmación como cadena de eventos |
+| **API-First** |  Aplicada | Angular, app móvil y servicios externos se comunican de forma clara |
+| **Contenedores (Docker)** |  Aplicada | Consistencia entre entornos de desarrollo y producción |
 
 ---
 
@@ -342,7 +342,7 @@ Los dueños de parqueaderos o espacios privados tendrán la oportunidad de ganar
 
 ### Requisitos
 
-- Java 21 (OpenJDK)
+- Java 26 (OpenJDK)
 - PostgreSQL 17 en puerto `5432`
 - Redis en puerto `6379`
 - Eclipse IDE + Spring Tools 4 (backend)
@@ -393,6 +393,3 @@ app:
 
 
 
-> **Easy Park** — Proyecto universitario de Arquitectura de Software  
-> Universidad Cooperativa de Colombia · 2026  
-> Cumplimiento Ley 1581 de 2012 — Habeas Data
