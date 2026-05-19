@@ -3,8 +3,8 @@
 
 **Autores:** Diego Alejandro Vega Vanegas
 **Universidad:** Universidad catolica del Oriente  
-**Asignatura:** Arquitectura de Software  
-**Año:** 2026
+**Asignatura:** ingenieria de software 2   
+
 
 ---
 
