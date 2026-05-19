@@ -391,14 +391,7 @@ app:
     lock-timeout: 300
 ```
 
-### Credenciales de administrador por defecto
 
-```
-Email:    admin@easypark.co
-Password: admin123
-```
-
----
 
 > **Easy Park** — Proyecto universitario de Arquitectura de Software  
 > Universidad Cooperativa de Colombia · 2026  
