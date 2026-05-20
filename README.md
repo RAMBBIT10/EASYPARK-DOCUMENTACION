@@ -22,6 +22,7 @@
 - [Herramientas y Tecnologías Seleccionadas](#herramientas-y-tecnologías-seleccionadas)
 - [Arquitectura del Sistema](#arquitectura-del-sistema)
 - [Cómo Correr el Proyecto](#cómo-correr-el-proyecto)
+-  [Diagramacion de proyecto](#diagramas-empleados-en-el-proyecto)
 
 ---
 
