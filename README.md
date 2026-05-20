@@ -533,12 +533,6 @@ app:
     lock-timeout: 300      # Bloqueo Redis en segundos (5 minutos)
 ```
 
-### Usuario administrador de prueba
-
-```
-Correo:     admin@easypark.co
-Contraseña: admin123
-```
 
 ---
 
@@ -557,4 +551,4 @@ Incluye el Documento de Arquitectura de Software (DAS) completo, los diagramas e
 
 ---
 
-*Universidad Católica de Oriente — Arquitectura de Software — 2025*
+
