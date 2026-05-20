@@ -544,11 +544,6 @@ app:
 <img width="1260" height="581" alt="diagrama de capas back end drawio" src="https://github.com/user-attachments/assets/1c05257a-a14d-4c11-9091-d6f1e54febde" />
 <img width="791" height="811" alt="diagrama paquetes backend (1) drawio" src="https://github.com/user-attachments/assets/8d983df4-4811-42b9-bd65-0cb4b7281376" />
 
-Toda la documentación arquitectónica del proyecto está disponible en:
 
-
-Incluye el Documento de Arquitectura de Software (DAS) completo, los diagramas en formato `.drawio`, los atributos de calidad, restricciones y la plataforma tecnológica.
-
----
 
 
