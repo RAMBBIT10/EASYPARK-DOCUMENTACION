@@ -3,8 +3,8 @@
 
 **Autor:** Diego Alejandro Vega Vanegas  
 **Universidad:** Universidad Católica de Oriente  
-**Asignatura:** Ingeniería de Software 2 — Arquitectura de Software  
-**Año:** 2025
+**Asignatura:** Ingeniería de Software 2 — ingenieria software  
+
 
 > EasyPark conecta conductores que necesitan dónde aparcar con propietarios de espacios privados que quieren generar ingresos. Reservas en tiempo real, pagos digitales y mapa interactivo, todo en una sola plataforma web.
 
